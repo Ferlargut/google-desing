@@ -1,1 +1,30 @@
 @import'grid';
+@import 'variablesyfunciones';
+
+svg{
+    text-align: center;    
+}
+nav{
+    div { 
+            ul{
+                text-align: center;
+                list-style: none;
+                font-family: $font-product;
+                color:$color-titulos;
+                font-weight: 700;
+                text-transform: uppercase;                
+            }
+    }
+}
+.primera-seccion{
+    div{       
+        background-image: url("/assets/img/primera.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+        display: inline-block;
+        margin-top: 10rem;
+        height: 39rem;
+    }
+
+}

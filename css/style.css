@@ -6,7 +6,7 @@
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0px auto; }
+  margin: 20px auto; }
 
 .templateRow, .row:before, .row:after {
   content: " ";
@@ -16,6 +16,11 @@
   clear: both; }
 
 [class*="col-"] {
+  min-height: 7px;
+  padding: 12px;
+  float: left; }
+
+[class*="col-offset-"] {
   min-height: 7px;
   padding: 12px;
   float: left; }
@@ -55,5 +60,61 @@
 
 .col-12 {
   width: 100%; }
+
+.col-offset-1 {
+  margin-left: 8.33333%; }
+
+.col-offset-2 {
+  margin-left: 16.66667%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33333%; }
+
+.col-offset-5 {
+  margin-left: 41.66667%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33333%; }
+
+.col-offset-8 {
+  margin-left: 66.66667%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-10 {
+  margin-left: 83.33333%; }
+
+.col-offset-11 {
+  margin-left: 91.66667%; }
+
+.col-offset-12 {
+  margin-left: 100%; }
+
+svg {
+  text-align: center; }
+
+nav div ul {
+  text-align: center;
+  list-style: none;
+  font-family: "Product Sans", Arial, sans-serif;
+  color: #424242;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.primera-seccion div {
+  background-image: url("/assets/img/primera.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  display: inline-block;
+  margin-top: 10rem;
+  height: 39rem; }
 
 /*# sourceMappingURL=style.css.map */
